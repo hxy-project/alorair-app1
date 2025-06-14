@@ -8139,7 +8139,8 @@ background: #F8FBFF;
     <script>
         // 这里写js
      // 初始化每个 tab-group 实例
-    document.querySelectorAll('.tab-group').forEach(group => {
+      // 初始化每个 tab-group 实例
+      document.querySelectorAll('.tab-group').forEach(group => {
       const tabs = group.querySelectorAll('.tab');
       const panels = group.querySelectorAll('.tab-panel');
       const underline = group.querySelector('.underline');
@@ -8167,15 +8168,19 @@ background: #F8FBFF;
         tab.addEventListener('click', () => switchTab(index));
       });
 
-      // 初始化下划线
-      const activeTab = group.querySelector('.tab.active');
-      updateUnderline(activeTab);
+      // 初始化
+      const init = () => {
+        const activeTab = group.querySelector('.tab.active');
+        updateUnderline(activeTab);
+      };
 
-      // 响应式下划线更新
-      window.addEventListener('resize', () => {
-        const currentActive = group.querySelector('.tab.active');
-        updateUnderline(currentActive);
-      });
+      // 保证字体加载后再测量尺寸
+      window.addEventListener('load', init);
+      if (document.fonts) {
+        document.fonts.ready.then(init);
+      }
+
+      window.addEventListener('resize', init);
     });
     $(document).ready(function () {
           var summary=document.querySelectorAll('.faq-list summary')
