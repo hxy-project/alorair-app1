@@ -5205,6 +5205,14 @@
         <link rel="stylesheet" href="./assets/website/bestAppBox/references/faq.css">
         <script src="./assets/website/bestAppBox/references/roborock_app.js"></script>
         <style>
+            .mainnavsec .dropcont {
+        
+                overflow-y: auto !important;
+                overflow-x: hidden;
+                -webkit-overflow-scrolling: touch;
+            
+            }
+
             @font-face {
                 font-family: Inter-Regular;
                 src: url(./assets/website/bestAppBox/font/Inter-Regular-9.otf);
@@ -5332,7 +5340,7 @@
             }
 
             .font-size-88 {
-                font-size: calc(var(--body-font-size) * .88px)!important;
+                font-size: calc(var(--body-font-size) * .88px) !important;
             }
 
             .font-size-30 {
@@ -5347,7 +5355,7 @@
             }
 
             .font-size-38 {
-              font-size: calc(var(--body-font-size) * 0.3px) !important;
+                font-size: calc(var(--body-font-size) * 0.3px) !important;
             }
 
             .font-size-42 {
@@ -5553,7 +5561,7 @@
                 background-color: #21467A;
                 padding: calc(var(--body-font-size) * 0.14px) calc(var(--body-font-size) * 0.34px);
                 color: #fff;
-               border: none;
+                border: none;
             }
 
             .font-w-600 {
@@ -5567,9 +5575,11 @@
             .font-size-26 {
                 font-size: calc(var(--body-font-size) * 0.26px) !important;
             }
+
             .font-size-20 {
                 font-size: calc(var(--body-font-size) * 0.2px) !important;
             }
+
             .text-color-b {
                 color: #000;
             }
@@ -5580,7 +5590,7 @@
 
             .color-gray {
                 color: #666;
-             
+
             }
 
             .vertical-align-b {
@@ -5593,7 +5603,7 @@
                 display: flex;
                 flex-wrap: wrap;
                 border-bottom: 2px solid #ccc;
-             
+
             }
 
             .tab {
@@ -5641,172 +5651,208 @@
             .m-146 {
                 max-width: calc(var(--body-font-size) * 1.46px);
             }
-.tab-w-100{
-    max-width: 560px;
-}
-.p-max-w{
-    max-width: 1130px;
-}
-.mb-60{
-    margin-bottom: calc(var(--body-font-size) * .6px) !important;
-}
-.text-start{
-    text-align: start;
-}
-.p-l-0{
-    padding-left: 0;
-}
 
-.font-w-500{
-  font-weight: 500 !important;
-}
-.grid-2-box{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: calc(var(--body-font-size) * 1.04px);
-}
-.grid-4-box{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: calc(var(--body-font-size) * .16px);
-}
-.line-height-13{
-    line-height: 13px;
-}
-.font-size-12{
-   font-size: 12px !important;
-}
-.img-max-46{
-    max-width: calc(var(--body-font-size) * .46px);
-}
-.youtube-text{
-    background-color: #21467A;
-    padding:calc(var(--body-font-size) * .28px)  calc(var(--body-font-size) * .27px);
-    border-radius: 0px 0px 20px 20px;
-}
-iframe{
-    aspect-ratio: 16 / 9; 
-}
-.mr-41{
-    margin-right: calc(var(--body-font-size) * .41px);
-}
-.mb-90{
-    margin-bottom: calc(var(--body-font-size) * .9px);
-}
-.pt-44{
-    padding-top:calc(var(--body-font-size) * .44px);
-}
-.font-size-15{
-    font-size: 15px!important;
-}
-.mb-10{
-    margin-bottom: calc(var(--body-font-size) * .1px);
-}
-.mr-8{
-    margin-right: 8px;
-}
-.font-size-18{
-    font-size: calc(var(--body-font-size) * .18px) !important;
-}
-.mb-14{
-    margin-bottom: 14px;
-}
-.mb-17{
-margin-bottom: 17px;
-}
-.color-69{
-    color: #696969;
-}
-.mt-20{
-    margin-top: calc(var(--body-font-size) * .2px);
-}
-.buyNow-btn{
-    width: 100%;
-    background-color: #21467A;
-    color: #fff;
-   padding-top: calc(var(--body-font-size) * .15px);
-   padding-bottom: calc(var(--body-font-size) * .15px);
-   border-radius: 3px;
-   font-weight: 600;
-   font-size: calc(var(--body-font-size) * .2px);
-   font-family: OPPO-Sans !important;
-}
-.svg-w-h{
-    width:calc(var(--body-font-size) * .28px);
-    height: calc(var(--body-font-size) * .28px);
-    flex-shrink: 0;
-}
-/* product */
-.product-box{
-    position: relative;
-padding: 0 calc(var(--body-font-size) * .12px) calc(var(--body-font-size) * .24px);
-border: 1px solid rgba(102, 102, 102, 0.10);
-}
-.product-box ul li{
-    display: list-item !important;
-  list-style-type: disc;
-    padding-left: 12px;
-}
-.product-box ul{
-    list-style-type: disc;
-  list-style-position: outside;
-  padding-left: 1.5em;
-}
- .product-badge{
-position: absolute;
-top: 0;
-left: 0;
-padding: 8.5px 30px;
-background-color: #21467A;
-color: #fff;
- }     
- .w-img-142{
-max-width: calc(var(--body-font-size) * 2.42px);
- }  
- .w-img-92{
-    max-width: calc(var(--body-font-size) * 0.92px);
- }
- .icon-box{
-position: absolute;
-top: calc(var(--body-font-size) * .1px);
-right: calc(var(--body-font-size) * .24px);
- }
- .dehumidifier-parts{
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    border-radius: 2px;
-background: #F8FBFF;
- }
- .color-main{
-    color: #21467A;
- }
- .divider {
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 10px 0;
-    }
+            .tab-w-100 {
+                max-width: 560px;
+            }
 
-    .divider::before,
-    .divider::after {
-      content: "";
-      flex: 1;
-      height: 1px;
-      background-color: #ccc;
-    }
+            .p-max-w {
+                max-width: 1130px;
+            }
 
-    .triangle {
-      width: 0;
-      height: 0;
-      margin: 0 12px;
-      border-left: 8px solid transparent;
-      border-right: 8px solid transparent;
-      border-top: 8px solid #ccc; /* 倒三角方向 */
-    }
-  
-     @keyframes fadeIn {
+            .mb-60 {
+                margin-bottom: calc(var(--body-font-size) * .6px) !important;
+            }
+
+            .text-start {
+                text-align: start;
+            }
+
+            .p-l-0 {
+                padding-left: 0;
+            }
+
+            .font-w-500 {
+                font-weight: 500 !important;
+            }
+
+            .grid-2-box {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: calc(var(--body-font-size) * 1.04px);
+            }
+
+            .grid-4-box {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: calc(var(--body-font-size) * .16px);
+            }
+
+            .line-height-13 {
+                line-height: 13px;
+            }
+
+            .font-size-12 {
+                font-size: 12px !important;
+            }
+
+            .img-max-46 {
+                max-width: calc(var(--body-font-size) * .46px);
+            }
+
+            .youtube-text {
+                background-color: #21467A;
+                padding: calc(var(--body-font-size) * .28px) calc(var(--body-font-size) * .27px);
+                border-radius: 0px 0px 20px 20px;
+            }
+
+            iframe {
+                aspect-ratio: 16 / 9;
+            }
+
+            .mr-41 {
+                margin-right: calc(var(--body-font-size) * .41px);
+            }
+
+            .mb-90 {
+                margin-bottom: calc(var(--body-font-size) * .9px);
+            }
+
+            .pt-44 {
+                padding-top: calc(var(--body-font-size) * .44px);
+            }
+
+            .font-size-15 {
+                font-size: 15px !important;
+            }
+
+            .mb-10 {
+                margin-bottom: calc(var(--body-font-size) * .1px);
+            }
+
+            .mr-8 {
+                margin-right: 8px;
+            }
+
+            .font-size-18 {
+                font-size: calc(var(--body-font-size) * .18px) !important;
+            }
+
+            .mb-14 {
+                margin-bottom: 14px;
+            }
+
+            .mb-17 {
+                margin-bottom: 17px;
+            }
+
+            .color-69 {
+                color: #696969;
+            }
+
+            .mt-20 {
+                margin-top: calc(var(--body-font-size) * .2px);
+            }
+
+            .buyNow-btn {
+                width: 100%;
+                background-color: #21467A;
+                color: #fff;
+                padding-top: calc(var(--body-font-size) * .15px);
+                padding-bottom: calc(var(--body-font-size) * .15px);
+                border-radius: 3px;
+                font-weight: 600;
+                font-size: calc(var(--body-font-size) * .2px);
+                font-family: OPPO-Sans !important;
+            }
+
+            .svg-w-h {
+                width: calc(var(--body-font-size) * .28px);
+                height: calc(var(--body-font-size) * .28px);
+                flex-shrink: 0;
+            }
+
+            /* product */
+            .product-box {
+                position: relative;
+                padding: 0 calc(var(--body-font-size) * .12px) calc(var(--body-font-size) * .24px);
+                border: 1px solid rgba(102, 102, 102, 0.10);
+            }
+
+            .product-box ul li {
+                display: list-item !important;
+                list-style-type: disc;
+                padding-left: 12px;
+            }
+
+            .product-box ul {
+                list-style-type: disc;
+                list-style-position: outside;
+                padding-left: 1.5em;
+            }
+
+            .product-badge {
+                position: absolute;
+                top: 0;
+                left: 0;
+                padding: 8.5px 30px;
+                background-color: #21467A;
+                color: #fff;
+            }
+
+            .w-img-142 {
+                max-width: calc(var(--body-font-size) * 2.42px);
+            }
+
+            .w-img-92 {
+                max-width: calc(var(--body-font-size) * 0.92px);
+            }
+
+            .icon-box {
+                position: absolute;
+                top: calc(var(--body-font-size) * .1px);
+                right: calc(var(--body-font-size) * .24px);
+            }
+
+            .dehumidifier-parts {
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                border-radius: 2px;
+                background: #F8FBFF;
+            }
+
+            .color-main {
+                color: #21467A;
+            }
+
+            .divider {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 10px 0;
+            }
+
+            .divider::before,
+            .divider::after {
+                content: "";
+                flex: 1;
+                height: 1px;
+                background-color: #ccc;
+            }
+
+            .triangle {
+                width: 0;
+                height: 0;
+                margin: 0 12px;
+                border-left: 8px solid transparent;
+                border-right: 8px solid transparent;
+                border-top: 8px solid #ccc;
+                /* 倒三角方向 */
+            }
+
+            @keyframes fadeIn {
                 from {
                     opacity: 0;
                     transform: translateY(10px);
@@ -5817,58 +5863,67 @@ background: #F8FBFF;
                     transform: translateY(0);
                 }
             }
-/* faq */
 
-   .faq-list{
-    width: 100%;
-   }
-   .faq-list summary{
-        cursor: pointer;
-     }
+            /* faq */
 
-     .mb-100{
-        margin-bottom: calc(var(--body-font-size) * 1px);
-     }
-     .question-content{
-        font-weight: 500;
-   font-size: calc(var(--body-font-size) * .28px);
-   font-family: OPPO-Sans !important;
-   color: #101828;
-     }
-     .answer-content{
-        font-weight: 400;
-   font-size: calc(var(--body-font-size) * .24px);
-   font-family: OPPO-Sans !important;
-        background-color: #ffffff;
-        color: #333333;
-      
-        padding: 0 calc(var(--body-font-size) * .62px) calc(var(--body-font-size) * .24px) calc(var(--body-font-size) * .66px);
-     }
-     .icon-rotate{
-    transform: rotate(180deg);
-    transition: transform .4s ease-in-out,opacity .3s ease-in-out;
-     }
-     .mb-20{
-        margin-bottom: 20px;
-     }
-     details{
-        padding: 10px;
-        border-radius: 10px;
-      background: #F6FAFD;
-      border: none !important;
-    }
-    details summary {
-        padding: calc(var(--body-font-size) * .25px) calc(var(--body-font-size) * .32px) calc(var(--body-font-size) * .25px) calc(var(--body-font-size) * .20px);
-        background-color: #fff;
-    }
+            .faq-list {
+                width: 100%;
+            }
+
+            .faq-list summary {
+                cursor: pointer;
+            }
+
+            .mb-100 {
+                margin-bottom: calc(var(--body-font-size) * 1px);
+            }
+
+            .question-content {
+                font-weight: 500;
+                font-size: calc(var(--body-font-size) * .28px);
+                font-family: OPPO-Sans !important;
+                color: #101828;
+            }
+
+            .answer-content {
+                font-weight: 400;
+                font-size: calc(var(--body-font-size) * .24px);
+                font-family: OPPO-Sans !important;
+                background-color: #ffffff;
+                color: #333333;
+
+                padding: 0 calc(var(--body-font-size) * .62px) calc(var(--body-font-size) * .24px) calc(var(--body-font-size) * .66px);
+            }
+
+            .icon-rotate {
+                transform: rotate(180deg);
+                transition: transform .4s ease-in-out, opacity .3s ease-in-out;
+            }
+
+            .mb-20 {
+                margin-bottom: 20px;
+            }
+
+            details {
+                padding: 10px;
+                border-radius: 10px;
+                background: #F6FAFD;
+                border: none !important;
+            }
+
+            details summary {
+                padding: calc(var(--body-font-size) * .25px) calc(var(--body-font-size) * .32px) calc(var(--body-font-size) * .25px) calc(var(--body-font-size) * .20px);
+                background-color: #fff;
+            }
 
             /**
        pc端样式
        */
             @media screen and (min-width: 1300px) {
-                .pc-flex-box{
+                .pc-flex-box {
                     display: flex !important;
                 }
+
                 .know-content-box {
                     width: 100%;
                     position: absolute;
@@ -5876,9 +5931,11 @@ background: #F8FBFF;
                     left: 0;
                     padding-top: 10.8333vw;
                 }
-.text-max-46{
-    max-width: calc(var(--body-font-size) * .46px);
-}
+
+                .text-max-46 {
+                    max-width: calc(var(--body-font-size) * .46px);
+                }
+
                 .m-color-w {
                     color: #ffffff;
                 }
@@ -5926,8 +5983,9 @@ background: #F8FBFF;
                 .roborock_app_bt-inside {
                     align-items: center;
                 }
-                .grid-4-box{
-                  grid-template-columns: 1fr 1fr 1fr 1fr ;
+
+                .grid-4-box {
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
                 }
             }
 
@@ -5937,18 +5995,20 @@ background: #F8FBFF;
                 .tab.active {
                     border-bottom: none;
                 }
-             .tabs{
-                width: 60%;
-             }
-            }
-        
-              @media screen and (max-width: 1200px) {
-                .grid-4-box{
-                   grid-template-columns: 1fr 1fr;
+
+                .tabs {
+                    width: 60%;
                 }
             }
+
+            @media screen and (max-width: 1200px) {
+                .grid-4-box {
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
+
             @media screen and (max-width: 767px) {
-              
+
                 .m-padding {
                     padding: 15px 20px 15px 15px !important;
                 }
@@ -5990,20 +6050,28 @@ background: #F8FBFF;
                     padding-left: 12px;
                     text-align: center;
                 }
-                .pdf-img{
-           width:calc(var(--body-font-size) * 1.29px) ;
-}
+
+                .pdf-img {
+                    width: calc(var(--body-font-size) * 1.29px);
+                }
+
                 /* 活跃 tab 底部蓝色边框 */
                 .tab.active {
                     border-bottom-color: #21467A;
                 }
-                .grid-2-box{
+
+                .grid-2-box {
                     grid-template-columns: 1fr;
                 }
-                .grid-4-box{
-                   grid-template-columns: 1fr;
+
+                .grid-4-box {
+                    grid-template-columns: 1fr;
                 }
-                .font-size-18,.font-size-20,.font-size-24,.buyNow-btn {
+
+                .font-size-18,
+                .font-size-20,
+                .font-size-24,
+                .buyNow-btn {
                     font-size: 14px !important;
                 }
             }
@@ -6017,7 +6085,7 @@ background: #F8FBFF;
                 .xs-mb-15 {
                     margin-bottom: 15px;
                 }
-              
+
             }
         </style>
         <div id="app-box">
@@ -6302,7 +6370,9 @@ background: #F8FBFF;
                                 <div class="download-content">
                                     <div class="grid-box">
                                         <div class="mb-30">
-                                            <p class="mb-30 OPPO-Sans font-size-24 color-b m-color-pc xs-mb-15 xs-font-size-20">Ready to
+                                            <p
+                                                class="mb-30 OPPO-Sans font-size-24 color-b m-color-pc xs-mb-15 xs-font-size-20">
+                                                Ready to
                                                 start?</p>
                                             <p
                                                 class="OPPO-Sans font-size-24 color-b m-color-pc line-height xs-font-size-20 mb-30">
@@ -6715,17 +6785,18 @@ background: #F8FBFF;
                                             <div class="tabs" id="tabList">
                                                 <div class="tab active text-start p-l-0">Ducted Dehumidification</div>
                                                 <div class="tab text-start p-l-0">Ducted Dehumidification</div>
-    
+
                                                 <div class="underline"></div>
                                             </div>
-    
+
                                             <div class="tab-content" id="tabContent">
                                                 <div class="tab-panel active">
                                                     <img src="./assets/website/bestAppBox/images/Ducted Dehumidification.png"
                                                         class="mb-32">
                                                     <div class="accessories-box">
                                                         <div class="flex-box align-items-c">
-                                                            <p class="OPPO-Sans text-color-b font-size-34 line-height">Related <br>
+                                                            <p class="OPPO-Sans text-color-b font-size-34 line-height">
+                                                                Related <br>
                                                                 Accessories</p>
                                                         </div>
                                                         <div class="flex-box">
@@ -6734,8 +6805,11 @@ background: #F8FBFF;
                                                                     class="m-146 mr-26">
                                                             </div>
                                                             <div class="flex-box flex-c-direction justify-content-c">
-                                                                <p class="OPPO-Sans text-color-b font-w-600 font-size-25 mb-8">AlorAir®
-                                                                    Remote Controller for Sentinel HD35p HD55p HDi65 HD90
+                                                                <p
+                                                                    class="OPPO-Sans text-color-b font-w-600 font-size-25 mb-8">
+                                                                    AlorAir®
+                                                                    Remote Controller for Sentinel HD35p HD55p HDi65
+                                                                    HD90
                                                                     HDi90 HD55 HDi100 HDi120</p>
                                                                 <div class="flex-box justify-c-b flex-wrap">
                                                                     <div class="flex-box flex-wrap">
@@ -6756,53 +6830,59 @@ background: #F8FBFF;
                                                     <img src="./assets/website/bestAppBox/images/Ducted Dehumidification.png"
                                                         class="mb-32">
                                                 </div>
-    
+
                                             </div>
-    
+
                                         </div>
                                     </div>
-                            
+
                             </section>
                             <section data-section="6" class="roborock_app_section roborock_app_section-sixth mb-60">
                                 <div class="roborock_app_top-part flex-box flex-c-direction justify-content-c">
-                                    <div
-                                        class="flex-box justify-content-c mb-50">
-                                        <p class="OPPO-Sans font-w-600 text-center font-size-42 line-height"> 2.0 Bluetooth/WiFi Module</p>
-                                       
+                                    <div class="flex-box justify-content-c mb-50">
+                                        <p class="OPPO-Sans font-w-600 text-center font-size-42 line-height"> 2.0
+                                            Bluetooth/WiFi Module</p>
+
                                     </div>
                                     <div class="tab-group">
                                         <!-- tab -->
                                         <div class="tab-box">
-                                         <div class="flex-box  justify-content-c">
-                                            <div class="tabs tab-w-100" id="tabList">
-                                                <div class="tab active">Wi-Fi Setup</div>
-                                                <div class="tab">Firmware Upgrade</div>
+                                            <div class="flex-box  justify-content-c">
+                                                <div class="tabs tab-w-100" id="tabList">
+                                                    <div class="tab active">Wi-Fi Setup</div>
+                                                    <div class="tab">Firmware Upgrade</div>
 
-                                                <div class="underline"></div>
+                                                    <div class="underline"></div>
+                                                </div>
+
                                             </div>
-
-                                         </div>
                                             <div class="tab-content" id="tabContent">
                                                 <div class="tab-panel active ">
                                                     <div class="flex-box flex-c-direction align-items-c">
-                                                        <p class="OPPO-Sans font-size-30 p-max-w line-height text-center mb-50">Built-in Wi-Fi and Bluetooth control enables quick and easy pairing for stable, and more reliable connectivity and monitoring.</p>
+                                                        <p
+                                                            class="OPPO-Sans font-size-30 p-max-w line-height text-center mb-50">
+                                                            Built-in Wi-Fi and Bluetooth control enables quick and easy
+                                                            pairing for stable, and more reliable connectivity and
+                                                            monitoring.</p>
                                                     </div>
-                                                 
-                                                   <div class="flex-box  justify-content-c">
-                                                    <img src="./assets/website/bestAppBox/images/tab_bg.png"
-                                                    >
-                                                   </div>
-                                              
+
+                                                    <div class="flex-box  justify-content-c">
+                                                        <img src="./assets/website/bestAppBox/images/tab_bg.png">
+                                                    </div>
+
                                                 </div>
                                                 <div class="tab-panel  flex-c-direction align-items-c">
                                                     <div class="flex-box flex-c-direction align-items-c">
-                                                        <p class="OPPO-Sans font-size-30 p-max-w line-height text-center mb-50">OTA gives the dehumidifier wifi firmware the ability to continually evolve, making it easy to update with just one click.</p>
+                                                        <p
+                                                            class="OPPO-Sans font-size-30 p-max-w line-height text-center mb-50">
+                                                            OTA gives the dehumidifier wifi firmware the ability to
+                                                            continually evolve, making it easy to update with just one
+                                                            click.</p>
                                                     </div>
-                                                   <div class="flex-box  justify-content-c">
-                                                    <img src="./assets/website/bestAppBox/images/tab_bg2.png"
-                                                    >
-                                                   </div>
-                                                  
+                                                    <div class="flex-box  justify-content-c">
+                                                        <img src="./assets/website/bestAppBox/images/tab_bg2.png">
+                                                    </div>
+
                                                 </div>
 
                                             </div>
@@ -6814,239 +6894,309 @@ background: #F8FBFF;
                             </section>
 
                             <section data-section="7" class="roborock_app_section roborock_app_section-seventh">
-                                <div class="roborock_app_title roborock_app_title-1 roborock_app_top-title OPPO-Sans font-w-500 font-size-34 mb-50">
+                                <div
+                                    class="roborock_app_title roborock_app_title-1 roborock_app_top-title OPPO-Sans font-w-500 font-size-34 mb-50">
                                     Wi-Fi Connection Tutorial for Beginners
                                 </div>
-                            <div class="grid-2-box">
-                                <div>
-                                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/efIlTbvgPlg" title="AirWerx 65X Crawlspace Commercial Dehumidifier" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                    <div class="youtube-text">
-                                     <p class="OPPO-Sans font-w-600 font-size-24 color-w">AlorAir-Lite WiFi Connect for Small LCD Screen Dehumidifier</p>
+                                <div class="grid-2-box">
+                                    <div>
+                                        <iframe width="100%" height="auto"
+                                            src="https://www.youtube.com/embed/efIlTbvgPlg"
+                                            title="AirWerx 65X Crawlspace Commercial Dehumidifier" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <div class="youtube-text">
+                                            <p class="OPPO-Sans font-w-600 font-size-24 color-w">AlorAir-Lite WiFi
+                                                Connect for Small LCD Screen Dehumidifier</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex-box flex-c-direction justify-content-c">
+                                        <div>
+                                            <a href="#" target="_blank" download class="flex-box align-items-c mb-90">
+                                                <img src="./assets/website/bestAppBox/images/pdf-load.png"
+                                                    class="mr-41 pdf-img">
+                                                <p class="OPPO-Sans font-size-26 line-height">AlorAir-R APP WI-FI
+                                                    connection guide, suitable for intelligent digital display control
+                                                    panel, compatible with IOS and Android</p>
+                                            </a>
+
+                                        </div>
+                                        <div>
+                                            <a href="#" target="_blank" download class="flex-box align-items-c">
+                                                <img src="./assets/website/bestAppBox/images/pdf-load.png"
+                                                    class="mr-41 pdf-img">
+                                                <p class="OPPO-Sans font-size-26 line-height">AlorAir-R APP WI-FI
+                                                    connection guide, suitable for intelligent digital display control
+                                                    panel, compatible with IOS and Android</p>
+                                            </a>
+                                        </div>
+                                        <div>
+
+                                        </div>
                                     </div>
                                 </div>
-                              
-                                <div class="flex-box flex-c-direction justify-content-c">
-                                 <div>
-                                    <a href="#" target="_blank" download class="flex-box align-items-c mb-90">
-                                        <img src="./assets/website/bestAppBox/images/pdf-load.png" class="mr-41 pdf-img">
-                                        <p class="OPPO-Sans font-size-26 line-height">AlorAir-R APP WI-FI connection guide, suitable for intelligent digital display control panel, compatible with IOS and Android</p>
-                                    </a>
-                                 
-                                 </div>
-                                 <div>
-                                    <a href="#" target="_blank" download class="flex-box align-items-c">
-                                        <img src="./assets/website/bestAppBox/images/pdf-load.png" class="mr-41 pdf-img">
-                                        <p class="OPPO-Sans font-size-26 line-height">AlorAir-R APP WI-FI connection guide, suitable for intelligent digital display control panel, compatible with IOS and Android</p>
-                                    </a>
-                                   </div>
-                                 <div>
-
-                                 </div>
-                                </div>
-                            </div>
                             </section>
 
                             <section data-section="8" class="roborock_app_section roborock_app_section-eighth">
-                              <p class="OPPO-Sans font-w-600 font-size-42 line-height text-center mb-8">Alorair Crawlspace's family of smart control dehumidifiers </p>
-                              <p class="OPPO-Sans font-w-600 font-size-42 line-height text-center mb-50">Enjoy 20% Off Now!</p>
-                              <div class="grid-4-box">
-                                <div class="product-box">
+                                <p class="OPPO-Sans font-w-600 font-size-42 line-height text-center mb-8">Alorair
+                                    Crawlspace's family of smart control dehumidifiers </p>
+                                <p class="OPPO-Sans font-w-600 font-size-42 line-height text-center mb-50">Enjoy 20% Off
+                                    Now!</p>
+                                <div class="grid-4-box">
+                                    <div class="product-box">
                                         <div class="product-badge">
-                                          <p class="interSemiBold font-size-15">-20%</p>
+                                            <p class="interSemiBold font-size-15">-20%</p>
                                         </div>
                                         <div class="icon-box flex-box flex-c-direction">
                                             <div class="mb-10 flex-box flex-c-direction align-items-c">
-                                                <img src="./assets/website/bestAppBox/images/icon_1.png" class="img-max-46" width="39" height="34">
-                                                <p class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">Energy Star</p>
+                                                <img src="./assets/website/bestAppBox/images/icon_1.png"
+                                                    class="img-max-46" width="39" height="34">
+                                                <p
+                                                    class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">
+                                                    Energy Star</p>
                                             </div>
-                                        
+
                                             <div class="mb-10 flex-box flex-c-direction align-items-c">
-                                                <img src="./assets/website/bestAppBox/images/icon_2.png" class="img-max-46" width="39" height="34">
-                                                <p class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">ETL Listed</p>
+                                                <img src="./assets/website/bestAppBox/images/icon_2.png"
+                                                    class="img-max-46" width="39" height="34">
+                                                <p
+                                                    class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">
+                                                    ETL Listed</p>
                                             </div>
                                             <div class="mb-10 flex-box flex-c-direction align-items-c">
-                                                <img src="./assets/website/bestAppBox/images/icon_3.png" class="img-max-46" width="39" height="34">
-                                                <p class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">Dual Drainage</p>
+                                                <img src="./assets/website/bestAppBox/images/icon_3.png"
+                                                    class="img-max-46" width="39" height="34">
+                                                <p
+                                                    class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">
+                                                    Dual Drainage</p>
                                             </div>
                                         </div>
-                                    <div class="flex-box align-items-c justify-content-c pt-44 mb-10">
-                                        <img src="./assets/website/bestAppBox/images/image (2).png" class="w-img-142">
-                                    </div>
-                                    <div class="dehumidifier-parts">
-                                       <div>
-                                        <img src="./assets/website/bestAppBox/images/Rectangle 34624732 (1).png" class="w-img-92 mr-11">
-                                       </div>
-                                       <p class="OPPO-Sans font-size-18 color-main">A 3-piece accessory package is given as a gift </p>
-                                    </div>
-                                    <div class="divider">
-                                        <div class="triangle"></div>
-                                      </div>
-                                      <p class="OPPO-Sans font-size-25 font-w-600 mb-14 mt-20">AlorAir Sentinel HD35P</p>
-                                      <ul class="mb-17">
-                                        <li class="OPPO-Sans font-size-20 color-69">
-                                            COP:2.0L/KWh
-                                        </li>
-                                        <li class="OPPO-Sans font-size-20 color-69">
-                                            Capacity: 70 PPD
-                                        </li>
-                                        <li class="OPPO-Sans font-size-20 color-69">
-                                            Size For:Up to 1,000 Sq.Ft
-                                        </li>
-                                      </ul>
-                                      <div class="price-box mb-17">
-                                        <span class="mr-8 OPPO-Sans font-size-26 font-w-600 color-main">$399.73</span>
-                                        <span class="line-through font-size-20 color-gray">$499.66</span>
-                                      </div>
-                                      <button class="buyNow-btn">Buy Now</button>
-                                </div>
-                                <div class="product-box ">
-                                    <div class="product-badge">
-                                      <p class="interSemiBold font-size-15">-20%</p>
-                                    </div>
-                                    <div class="icon-box flex-box flex-c-direction">
-                                        <div class="mb-10 flex-box flex-c-direction align-items-c">
-                                            <img src="./assets/website/bestAppBox/images/icon_1.png" class="img-max-46" width="39" height="34">
-                                            <p class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">Energy Star</p>
+                                        <div class="flex-box align-items-c justify-content-c pt-44 mb-10">
+                                            <img src="./assets/website/bestAppBox/images/image (2).png"
+                                                class="w-img-142">
                                         </div>
-                                    
-                                        <div class="mb-10 flex-box flex-c-direction align-items-c">
-                                            <img src="./assets/website/bestAppBox/images/icon_2.png" class="img-max-46" width="39" height="34">
-                                            <p class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">ETL Listed</p>
+                                        <div class="dehumidifier-parts">
+                                            <div>
+                                                <img src="./assets/website/bestAppBox/images/Rectangle 34624732 (1).png"
+                                                    class="w-img-92 mr-11">
+                                            </div>
+                                            <p class="OPPO-Sans font-size-18 color-main">A 3-piece accessory package is
+                                                given as a gift </p>
                                         </div>
-                                        <div class="mb-10 flex-box flex-c-direction align-items-c">
-                                            <img src="./assets/website/bestAppBox/images/icon_3.png" class="img-max-46" width="39" height="34">
-                                            <p class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">Dual Drainage</p>
+                                        <div class="divider">
+                                            <div class="triangle"></div>
                                         </div>
+                                        <p class="OPPO-Sans font-size-25 font-w-600 mb-14 mt-20">AlorAir Sentinel HD35P
+                                        </p>
+                                        <ul class="mb-17">
+                                            <li class="OPPO-Sans font-size-20 color-69">
+                                                COP:2.0L/KWh
+                                            </li>
+                                            <li class="OPPO-Sans font-size-20 color-69">
+                                                Capacity: 70 PPD
+                                            </li>
+                                            <li class="OPPO-Sans font-size-20 color-69">
+                                                Size For:Up to 1,000 Sq.Ft
+                                            </li>
+                                        </ul>
+                                        <div class="price-box mb-17">
+                                            <span
+                                                class="mr-8 OPPO-Sans font-size-26 font-w-600 color-main">$399.73</span>
+                                            <span class="line-through font-size-20 color-gray">$499.66</span>
+                                        </div>
+                                        <button class="buyNow-btn">Buy Now</button>
                                     </div>
-                                <div class="flex-box align-items-c justify-content-c pt-44 mb-10">
-                                    <img src="./assets/website/bestAppBox/images/image (2).png" class="w-img-142">
-                                </div>
-                                <div class="dehumidifier-parts">
-                                   <div>
-                                    <img src="./assets/website/bestAppBox/images/Rectangle 34624732 (1).png" class="w-img-92 mr-11">
-                                   </div>
-                                   <p class="OPPO-Sans font-size-18 color-main">A 3-piece accessory package is given as a gift </p>
-                                </div>
-                                <div class="divider">
-                                    <div class="triangle"></div>
-                                  </div>
-                                  <p class="OPPO-Sans font-size-25 font-w-600 mb-14 mt-20">AlorAir Sentinel HD35P</p>
-                                  <ul class="mb-17">
-                                    <li class="OPPO-Sans font-size-20 color-69">
-                                        COP:2.0L/KWh
-                                    </li>
-                                    <li class="OPPO-Sans font-size-20 color-69">
-                                        Capacity: 70 PPD
-                                    </li>
-                                    <li class="OPPO-Sans font-size-20 color-69">
-                                        Size For:Up to 1,000 Sq.Ft
-                                    </li>
-                                  </ul>
-                                  <div class="price-box mb-17">
-                                    <span class="mr-8 OPPO-Sans font-size-26 font-w-600 color-main">$399.73</span>
-                                    <span class="line-through font-size-20 color-gray">$499.66</span>
-                                  </div>
-                                  <button class="buyNow-btn">Buy Now</button>
-                            </div>
-                            <div class="product-box ">
-                                <div class="product-badge">
-                                  <p class="interSemiBold font-size-15">-20%</p>
-                                </div>
-                                <div class="icon-box flex-box flex-c-direction">
-                                    <div class="mb-10 flex-box flex-c-direction align-items-c">
-                                        <img src="./assets/website/bestAppBox/images/icon_1.png" class="img-max-46" width="39" height="34">
-                                        <p class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">Energy Star</p>
+                                    <div class="product-box ">
+                                        <div class="product-badge">
+                                            <p class="interSemiBold font-size-15">-20%</p>
+                                        </div>
+                                        <div class="icon-box flex-box flex-c-direction">
+                                            <div class="mb-10 flex-box flex-c-direction align-items-c">
+                                                <img src="./assets/website/bestAppBox/images/icon_1.png"
+                                                    class="img-max-46" width="39" height="34">
+                                                <p
+                                                    class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">
+                                                    Energy Star</p>
+                                            </div>
+
+                                            <div class="mb-10 flex-box flex-c-direction align-items-c">
+                                                <img src="./assets/website/bestAppBox/images/icon_2.png"
+                                                    class="img-max-46" width="39" height="34">
+                                                <p
+                                                    class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">
+                                                    ETL Listed</p>
+                                            </div>
+                                            <div class="mb-10 flex-box flex-c-direction align-items-c">
+                                                <img src="./assets/website/bestAppBox/images/icon_3.png"
+                                                    class="img-max-46" width="39" height="34">
+                                                <p
+                                                    class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">
+                                                    Dual Drainage</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex-box align-items-c justify-content-c pt-44 mb-10">
+                                            <img src="./assets/website/bestAppBox/images/image (2).png"
+                                                class="w-img-142">
+                                        </div>
+                                        <div class="dehumidifier-parts">
+                                            <div>
+                                                <img src="./assets/website/bestAppBox/images/Rectangle 34624732 (1).png"
+                                                    class="w-img-92 mr-11">
+                                            </div>
+                                            <p class="OPPO-Sans font-size-18 color-main">A 3-piece accessory package is
+                                                given as a gift </p>
+                                        </div>
+                                        <div class="divider">
+                                            <div class="triangle"></div>
+                                        </div>
+                                        <p class="OPPO-Sans font-size-25 font-w-600 mb-14 mt-20">AlorAir Sentinel HD35P
+                                        </p>
+                                        <ul class="mb-17">
+                                            <li class="OPPO-Sans font-size-20 color-69">
+                                                COP:2.0L/KWh
+                                            </li>
+                                            <li class="OPPO-Sans font-size-20 color-69">
+                                                Capacity: 70 PPD
+                                            </li>
+                                            <li class="OPPO-Sans font-size-20 color-69">
+                                                Size For:Up to 1,000 Sq.Ft
+                                            </li>
+                                        </ul>
+                                        <div class="price-box mb-17">
+                                            <span
+                                                class="mr-8 OPPO-Sans font-size-26 font-w-600 color-main">$399.73</span>
+                                            <span class="line-through font-size-20 color-gray">$499.66</span>
+                                        </div>
+                                        <button class="buyNow-btn">Buy Now</button>
                                     </div>
-                                
-                                    <div class="mb-10 flex-box flex-c-direction align-items-c">
-                                        <img src="./assets/website/bestAppBox/images/icon_2.png" class="img-max-46" width="39" height="34">
-                                        <p class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">ETL Listed</p>
+                                    <div class="product-box ">
+                                        <div class="product-badge">
+                                            <p class="interSemiBold font-size-15">-20%</p>
+                                        </div>
+                                        <div class="icon-box flex-box flex-c-direction">
+                                            <div class="mb-10 flex-box flex-c-direction align-items-c">
+                                                <img src="./assets/website/bestAppBox/images/icon_1.png"
+                                                    class="img-max-46" width="39" height="34">
+                                                <p
+                                                    class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">
+                                                    Energy Star</p>
+                                            </div>
+
+                                            <div class="mb-10 flex-box flex-c-direction align-items-c">
+                                                <img src="./assets/website/bestAppBox/images/icon_2.png"
+                                                    class="img-max-46" width="39" height="34">
+                                                <p
+                                                    class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">
+                                                    ETL Listed</p>
+                                            </div>
+                                            <div class="mb-10 flex-box flex-c-direction align-items-c">
+                                                <img src="./assets/website/bestAppBox/images/icon_3.png"
+                                                    class="img-max-46" width="39" height="34">
+                                                <p
+                                                    class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">
+                                                    Dual Drainage</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex-box align-items-c justify-content-c pt-44 mb-10">
+                                            <img src="./assets/website/bestAppBox/images/image (2).png"
+                                                class="w-img-142">
+                                        </div>
+                                        <div class="dehumidifier-parts">
+                                            <div>
+                                                <img src="./assets/website/bestAppBox/images/Rectangle 34624732 (1).png"
+                                                    class="w-img-92 mr-11">
+                                            </div>
+                                            <p class="OPPO-Sans font-size-18 color-main">A 3-piece accessory package is
+                                                given as a gift </p>
+                                        </div>
+                                        <div class="divider">
+                                            <div class="triangle"></div>
+                                        </div>
+                                        <p class="OPPO-Sans font-size-25 font-w-600 mb-14 mt-20">AlorAir Sentinel HD35P
+                                        </p>
+                                        <ul class="mb-17">
+                                            <li class="OPPO-Sans font-size-20 color-69">
+                                                COP:2.0L/KWh
+                                            </li>
+                                            <li class="OPPO-Sans font-size-20 color-69">
+                                                Capacity: 70 PPD
+                                            </li>
+                                            <li class="OPPO-Sans font-size-20 color-69">
+                                                Size For:Up to 1,000 Sq.Ft
+                                            </li>
+                                        </ul>
+                                        <div class="price-box mb-17">
+                                            <span
+                                                class="mr-8 OPPO-Sans font-size-26 font-w-600 color-main">$399.73</span>
+                                            <span class="line-through font-size-20 color-gray">$499.66</span>
+                                        </div>
+                                        <button class="buyNow-btn">Buy Now</button>
                                     </div>
-                                    <div class="mb-10 flex-box flex-c-direction align-items-c">
-                                        <img src="./assets/website/bestAppBox/images/icon_3.png" class="img-max-46" width="39" height="34">
-                                        <p class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">Dual Drainage</p>
+                                    <div class="product-box ">
+                                        <div class="product-badge">
+                                            <p class="interSemiBold font-size-15">-20%</p>
+                                        </div>
+                                        <div class="icon-box flex-box flex-c-direction">
+                                            <div class="mb-10 flex-box flex-c-direction align-items-c">
+                                                <img src="./assets/website/bestAppBox/images/icon_1.png"
+                                                    class="img-max-46" width="39" height="34">
+                                                <p
+                                                    class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">
+                                                    Energy Star</p>
+                                            </div>
+
+                                            <div class="mb-10 flex-box flex-c-direction align-items-c">
+                                                <img src="./assets/website/bestAppBox/images/icon_2.png"
+                                                    class="img-max-46" width="39" height="34">
+                                                <p
+                                                    class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">
+                                                    ETL Listed</p>
+                                            </div>
+                                            <div class="mb-10 flex-box flex-c-direction align-items-c">
+                                                <img src="./assets/website/bestAppBox/images/icon_3.png"
+                                                    class="img-max-46" width="39" height="34">
+                                                <p
+                                                    class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">
+                                                    Dual Drainage</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex-box align-items-c justify-content-c pt-44 mb-10">
+                                            <img src="./assets/website/bestAppBox/images/image (2).png"
+                                                class="w-img-142">
+                                        </div>
+                                        <div class="dehumidifier-parts">
+                                            <div>
+                                                <img src="./assets/website/bestAppBox/images/Rectangle 34624732 (1).png"
+                                                    class="w-img-92 mr-11">
+                                            </div>
+                                            <p class="OPPO-Sans font-size-18 color-main">A 3-piece accessory package is
+                                                given as a gift </p>
+                                        </div>
+                                        <div class="divider">
+                                            <div class="triangle"></div>
+                                        </div>
+                                        <p class="OPPO-Sans font-size-25 font-w-600 mb-14 mt-20">AlorAir Sentinel HD35P
+                                        </p>
+                                        <ul class="mb-17">
+                                            <li class="OPPO-Sans font-size-20 color-69">
+                                                COP:2.0L/KWh
+                                            </li>
+                                            <li class="OPPO-Sans font-size-20 color-69">
+                                                Capacity: 70 PPD
+                                            </li>
+                                            <li class="OPPO-Sans font-size-20 color-69">
+                                                Size For:Up to 1,000 Sq.Ft
+                                            </li>
+                                        </ul>
+                                        <div class="price-box mb-17">
+                                            <span
+                                                class="mr-8 OPPO-Sans font-size-26 font-w-600 color-main">$399.73</span>
+                                            <span class="line-through font-size-20 color-gray">$499.66</span>
+                                        </div>
+                                        <button class="buyNow-btn">Buy Now</button>
                                     </div>
                                 </div>
-                            <div class="flex-box align-items-c justify-content-c pt-44 mb-10">
-                                <img src="./assets/website/bestAppBox/images/image (2).png" class="w-img-142">
-                            </div>
-                            <div class="dehumidifier-parts">
-                               <div>
-                                <img src="./assets/website/bestAppBox/images/Rectangle 34624732 (1).png" class="w-img-92 mr-11">
-                               </div>
-                               <p class="OPPO-Sans font-size-18 color-main">A 3-piece accessory package is given as a gift </p>
-                            </div>
-                            <div class="divider">
-                                <div class="triangle"></div>
-                              </div>
-                              <p class="OPPO-Sans font-size-25 font-w-600 mb-14 mt-20">AlorAir Sentinel HD35P</p>
-                              <ul class="mb-17">
-                                <li class="OPPO-Sans font-size-20 color-69">
-                                    COP:2.0L/KWh
-                                </li>
-                                <li class="OPPO-Sans font-size-20 color-69">
-                                    Capacity: 70 PPD
-                                </li>
-                                <li class="OPPO-Sans font-size-20 color-69">
-                                    Size For:Up to 1,000 Sq.Ft
-                                </li>
-                              </ul>
-                              <div class="price-box mb-17">
-                                <span class="mr-8 OPPO-Sans font-size-26 font-w-600 color-main">$399.73</span>
-                                <span class="line-through font-size-20 color-gray">$499.66</span>
-                              </div>
-                              <button class="buyNow-btn">Buy Now</button>
-                        </div>
-                        <div class="product-box ">
-                            <div class="product-badge">
-                              <p class="interSemiBold font-size-15">-20%</p>
-                            </div>
-                            <div class="icon-box flex-box flex-c-direction">
-                                <div class="mb-10 flex-box flex-c-direction align-items-c">
-                                    <img src="./assets/website/bestAppBox/images/icon_1.png" class="img-max-46" width="39" height="34">
-                                    <p class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">Energy Star</p>
-                                </div>
-                            
-                                <div class="mb-10 flex-box flex-c-direction align-items-c">
-                                    <img src="./assets/website/bestAppBox/images/icon_2.png" class="img-max-46" width="39" height="34">
-                                    <p class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">ETL Listed</p>
-                                </div>
-                                <div class="mb-10 flex-box flex-c-direction align-items-c">
-                                    <img src="./assets/website/bestAppBox/images/icon_3.png" class="img-max-46" width="39" height="34">
-                                    <p class="text-max-46 OPPO-Sans font-size-12 text-center line-height-13">Dual Drainage</p>
-                                </div>
-                            </div>
-                        <div class="flex-box align-items-c justify-content-c pt-44 mb-10">
-                            <img src="./assets/website/bestAppBox/images/image (2).png" class="w-img-142">
-                        </div>
-                        <div class="dehumidifier-parts">
-                           <div>
-                            <img src="./assets/website/bestAppBox/images/Rectangle 34624732 (1).png" class="w-img-92 mr-11">
-                           </div>
-                           <p class="OPPO-Sans font-size-18 color-main">A 3-piece accessory package is given as a gift </p>
-                        </div>
-                        <div class="divider">
-                            <div class="triangle"></div>
-                          </div>
-                          <p class="OPPO-Sans font-size-25 font-w-600 mb-14 mt-20">AlorAir Sentinel HD35P</p>
-                          <ul class="mb-17">
-                            <li class="OPPO-Sans font-size-20 color-69">
-                                COP:2.0L/KWh
-                            </li>
-                            <li class="OPPO-Sans font-size-20 color-69">
-                                Capacity: 70 PPD
-                            </li>
-                            <li class="OPPO-Sans font-size-20 color-69">
-                                Size For:Up to 1,000 Sq.Ft
-                            </li>
-                          </ul>
-                          <div class="price-box mb-17">
-                            <span class="mr-8 OPPO-Sans font-size-26 font-w-600 color-main">$399.73</span>
-                            <span class="line-through font-size-20 color-gray">$499.66</span>
-                          </div>
-                          <button class="buyNow-btn">Buy Now</button>
-                    </div>
-                              </div>
                             </section>
 
                             <section data-section="9" class="roborock_app_section roborock_app_section-nineth">
@@ -7055,76 +7205,109 @@ background: #F8FBFF;
                                     <details class="border-t mb-20">
                                         <summary class="flex sb c-blue align-center bold">
                                             <span class="question-content">Q1: Does it support older models?</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none" class="c-grey2 f-smmm svg-w-h">
-                                                <path d="M25.3721 9.62725L14.0024 20.9922L2.63281 9.62725L4.37231 7.89243L14.003 17.5179L23.6308 7.89242L25.3721 9.62725Z" fill="#272636"/>
-                                              </svg>
-                                        
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none"
+                                                class="c-grey2 f-smmm svg-w-h">
+                                                <path
+                                                    d="M25.3721 9.62725L14.0024 20.9922L2.63281 9.62725L4.37231 7.89243L14.003 17.5179L23.6308 7.89242L25.3721 9.62725Z"
+                                                    fill="#272636" />
+                                            </svg>
+
                                         </summary>
                                         <div class="lh-m mb-s ph-s answer-content">
-                                            If your air scrubber isn't working, start by making sure the power cord is securely plugged in and the indicator light is on.  If the light is off or the cord looks damaged, the power cord may need to be replaced.
+                                            If your air scrubber isn't working, start by making sure the power cord is
+                                            securely plugged in and the indicator light is on. If the light is off or
+                                            the cord looks damaged, the power cord may need to be replaced.
                                         </div>
                                     </details>
                                     <details class=" mb-20">
                                         <summary class="flex sb c-blue align-center bold">
-                                            <span class="question-content">Q2: What should I do if I don't receive the activation email?</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 28 28" fill="none" class="c-grey2 f-smmm svg-w-h">
-                                                <path d="M25.3721 9.62725L14.0024 20.9922L2.63281 9.62725L4.37231 7.89243L14.003 17.5179L23.6308 7.89242L25.3721 9.62725Z" fill="#272636"/>
-                                              </svg>
+                                            <span class="question-content">Q2: What should I do if I don't receive the
+                                                activation email?</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none"
+                                                class="c-grey2 f-smmm svg-w-h">
+                                                <path
+                                                    d="M25.3721 9.62725L14.0024 20.9922L2.63281 9.62725L4.37231 7.89243L14.003 17.5179L23.6308 7.89242L25.3721 9.62725Z"
+                                                    fill="#272636" />
+                                            </svg>
                                         </summary>
                                         <div class="lh-m mb-s ph-s answer-content">
-                                            Generally speaking, the best MERV filter rating for your home is between 8-10. These filters will
-                                            capture most airborne particles and improve indoor air quality without significantly increasing your
+                                            Generally speaking, the best MERV filter rating for your home is between
+                                            8-10. These filters will
+                                            capture most airborne particles and improve indoor air quality without
+                                            significantly increasing your
                                             energy costs.
                                         </div>
                                     </details>
-                                
+
                                     <details class="mb-20">
                                         <summary class="flex sb c-blue align-center bold">
-                                            <span class="question-content">Q3: What to do when the dehumidifier fails to connect?</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none" class="c-grey2 f-smmm svg-w-h">
-                                                <path d="M25.3721 9.62725L14.0024 20.9922L2.63281 9.62725L4.37231 7.89243L14.003 17.5179L23.6308 7.89242L25.3721 9.62725Z" fill="#272636"/>
-                                              </svg>
+                                            <span class="question-content">Q3: What to do when the dehumidifier fails to
+                                                connect?</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none"
+                                                class="c-grey2 f-smmm svg-w-h">
+                                                <path
+                                                    d="M25.3721 9.62725L14.0024 20.9922L2.63281 9.62725L4.37231 7.89243L14.003 17.5179L23.6308 7.89242L25.3721 9.62725Z"
+                                                    fill="#272636" />
+                                            </svg>
                                         </summary>
                                         <div class="lh-m mb-s ph-s answer-content">
-                                            If you're using a higher MERV rated air filter, you should change it even more frequently.
+                                            If you're using a higher MERV rated air filter, you should change it even
+                                            more frequently.
                                         </div>
                                     </details>
                                     <details class=" mb-20">
                                         <summary class="flex sb c-blue align-center bold">
-                                            <span class="question-content">Q4: What's the difference between nearby devices and my device?</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none" class="c-grey2 f-smmm svg-w-h">
-                                                <path d="M25.3721 9.62725L14.0024 20.9922L2.63281 9.62725L4.37231 7.89243L14.003 17.5179L23.6308 7.89242L25.3721 9.62725Z" fill="#272636"/>
-                                              </svg>
+                                            <span class="question-content">Q4: What's the difference between nearby
+                                                devices and my device?</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none"
+                                                class="c-grey2 f-smmm svg-w-h">
+                                                <path
+                                                    d="M25.3721 9.62725L14.0024 20.9922L2.63281 9.62725L4.37231 7.89243L14.003 17.5179L23.6308 7.89242L25.3721 9.62725Z"
+                                                    fill="#272636" />
+                                            </svg>
                                         </summary>
                                         <div class="lh-m mb-s ph-s answer-content">
-                                            Replacing the filter is simple. First, turn off the power to the unit. Locate the area with the air
-                                            filter near the air supply and remove the plate. Then remove the spent filter. Check the airflow
-                                            arrows and install the new filter. Make sure the airflow arrow on the filter is pointing toward the
+                                            Replacing the filter is simple. First, turn off the power to the unit.
+                                            Locate the area with the air
+                                            filter near the air supply and remove the plate. Then remove the spent
+                                            filter. Check the airflow
+                                            arrows and install the new filter. Make sure the airflow arrow on the filter
+                                            is pointing toward the
                                             unit, then replace the cover. Finally, turn on the unit.
                                         </div>
                                     </details>
                                     <details class="mb-20">
                                         <summary class="flex sb c-blue align-center bold">
                                             <span class="question-content">Q5: What is 2.4GHz Wi-Fi?</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none" class="c-grey2 f-smmm svg-w-h">
-                                                <path d="M25.3721 9.62725L14.0024 20.9922L2.63281 9.62725L4.37231 7.89243L14.003 17.5179L23.6308 7.89242L25.3721 9.62725Z" fill="#272636"/>
-                                              </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none"
+                                                class="c-grey2 f-smmm svg-w-h">
+                                                <path
+                                                    d="M25.3721 9.62725L14.0024 20.9922L2.63281 9.62725L4.37231 7.89243L14.003 17.5179L23.6308 7.89242L25.3721 9.62725Z"
+                                                    fill="#272636" />
+                                            </svg>
                                         </summary>
                                         <div class="lh-m mb-s ph-s answer-content">
-                                            We allow returns within 30 days of your order. Please fill out the return form you received with
-                                            your order and send the goods to the address we provide. Learn more about the return policy here.
+                                            We allow returns within 30 days of your order. Please fill out the return
+                                            form you received with
+                                            your order and send the goods to the address we provide. Learn more about
+                                            the return policy here.
                                         </div>
                                     </details>
                                     <details class="mb-100">
                                         <summary class="flex sb c-blue align-center bold">
                                             <span class="question-content">Q6: What is the app's privacy policy?</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none" class="c-grey2 f-smmm svg-w-h">
-                                                <path d="M25.3721 9.62725L14.0024 20.9922L2.63281 9.62725L4.37231 7.89243L14.003 17.5179L23.6308 7.89242L25.3721 9.62725Z" fill="#272636"/>
-                                              </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none"
+                                                class="c-grey2 f-smmm svg-w-h">
+                                                <path
+                                                    d="M25.3721 9.62725L14.0024 20.9922L2.63281 9.62725L4.37231 7.89243L14.003 17.5179L23.6308 7.89242L25.3721 9.62725Z"
+                                                    fill="#272636" />
+                                            </svg>
                                         </summary>
                                         <div class="lh-m mb-s ph-s answer-content">
-                                            We allow returns within 30 days of your order. Please fill out the return form you received with
-                                            your order and send the goods to the address we provide. Learn more about the return policy here.
+                                            We allow returns within 30 days of your order. Please fill out the return
+                                            form you received with
+                                            your order and send the goods to the address we provide. Learn more about
+                                            the return policy here.
                                         </div>
                                     </details>
                                 </div>
@@ -8139,75 +8322,98 @@ background: #F8FBFF;
 
     <script>
         // 这里写js
-     // 初始化每个 tab-group 实例
-      // 初始化每个 tab-group 实例
-      document.querySelectorAll('.tab-group').forEach(group => {
-      const tabs = group.querySelectorAll('.tab');
-      const panels = group.querySelectorAll('.tab-panel');
-      const underline = group.querySelector('.underline');
+        // 初始化每个 tab-group 实例
+        // 初始化每个 tab-group 实例
+        document.querySelectorAll('.tab-group').forEach(group => {
+            const tabs = group.querySelectorAll('.tab');
+            const panels = group.querySelectorAll('.tab-panel');
+            const underline = group.querySelector('.underline');
 
-      function updateUnderline(target) {
-        if (!target || !underline) return;
-        if (window.innerWidth >= 768) {
-          underline.style.display = 'block';
-          underline.style.width = `${target.offsetWidth}px`;
-          underline.style.left = `${target.offsetLeft}px`;
-        } else {
-          underline.style.display = 'none';
-        }
-      }
+            function updateUnderline(target) {
+                if (!target || !underline) return;
+                if (window.innerWidth >= 768) {
+                    underline.style.display = 'block';
+                    underline.style.width = `${target.offsetWidth}px`;
+                    underline.style.left = `${target.offsetLeft}px`;
+                } else {
+                    underline.style.display = 'none';
+                }
+            }
 
-      function switchTab(index) {
-        tabs.forEach(t => t.classList.remove('active'));
-        panels.forEach(p => p.classList.remove('active'));
-        tabs[index].classList.add('active');
-        panels[index].classList.add('active');
-        updateUnderline(tabs[index]);
-      }
+            function switchTab(index) {
+                tabs.forEach(t => t.classList.remove('active'));
+                panels.forEach(p => p.classList.remove('active'));
+                tabs[index].classList.add('active');
+                panels[index].classList.add('active');
+                updateUnderline(tabs[index]);
+            }
 
-      tabs.forEach((tab, index) => {
-        tab.addEventListener('click', () => switchTab(index));
-      });
+            tabs.forEach((tab, index) => {
+                tab.addEventListener('click', () => switchTab(index));
+            });
 
-      // 初始化
-      const init = () => {
-        const activeTab = group.querySelector('.tab.active');
-        updateUnderline(activeTab);
-      };
+            // 初始化
+            const init = () => {
+                const activeTab = group.querySelector('.tab.active');
+                updateUnderline(activeTab);
+            };
 
-      // 保证字体加载后再测量尺寸
-      window.addEventListener('load', init);
-      if (document.fonts) {
-        document.fonts.ready.then(init);
-      }
+            // 保证字体加载后再测量尺寸
+            window.addEventListener('load', init);
+            if (document.fonts) {
+                document.fonts.ready.then(init);
+            }
 
-      window.addEventListener('resize', init);
-    });
-    $(document).ready(function () {
-          var summary=document.querySelectorAll('.faq-list summary')
-          summary.forEach(function(item,index){
-            item.addEventListener('click', function() {
-            var flag = document.querySelectorAll(".faq-list details")[index].open;
-   
-               var icon=document.querySelectorAll('.faq-list .c-grey2')[index]
-               if(!flag){
-            icon.classList.add('icon-rotate');
-         
-          }
-          else{
-            icon.classList.remove('icon-rotate');
-         }
-  })               
-          })
-       });
-       const spans = document.querySelectorAll('p span');
+            window.addEventListener('resize', init);
+        });
+        $(document).ready(function () {
+            var summary = document.querySelectorAll('.faq-list summary')
+            summary.forEach(function (item, index) {
+                item.addEventListener('click', function () {
+                    var flag = document.querySelectorAll(".faq-list details")[index].open;
 
-const numLetters = spans.length;
+                    var icon = document.querySelectorAll('.faq-list .c-grey2')[index]
+                    if (!flag) {
+                        icon.classList.add('icon-rotate');
 
-spans.forEach(function(span, i) {
-const mappedIndex = i - (numLetters / 2)
-span.style.animationDelay = (mappedIndex * 0.25) + 's';
-});
+                    }
+                    else {
+                        icon.classList.remove('icon-rotate');
+                    }
+                })
+            })
+        });
+        const spans = document.querySelectorAll('p span');
+
+        const numLetters = spans.length;
+
+        spans.forEach(function (span, i) {
+            const mappedIndex = i - (numLetters / 2)
+            span.style.animationDelay = (mappedIndex * 0.25) + 's';
+        });
+
+        document.addEventListener('wheel', function (e) {
+            const isInDrop = e.target.closest('.dropcont');
+            if (isInDrop) {
+                e.stopPropagation(); // ✅ 放行弹框滚动
+                return;
+            }
+        }, { passive: false });
+
+        document.addEventListener('touchmove', function (e) {
+            const isInDrop = e.target.closest('.dropcont');
+            if (isInDrop) {
+                e.stopPropagation(); // ✅ 放行弹框滚动（移动端）
+                return;
+            }
+        }, { passive: false });
+
+        // ScrollTrigger 或 Observer 插件阻止页面滚动时，仅排除 dropcont 区域
+        document.addEventListener('scroll', function (e) {
+            if (e.target.closest('.dropcont')) return;
+            // 否则执行你的页面 scroll 动画或同步逻辑
+        }, { passive: true });
+
     </script>
 </body>
 
