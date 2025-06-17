@@ -3215,7 +3215,7 @@ body {
             --body-font-size
           ) * 0.36px);
     padding: calc(var(--body-font-size) * 0.21px)
-      calc(var(--body-font-size) * 0.36px);
+      calc(var(--body-font-size) * 0.15px);
   }
   .roborock_app_section.roborock_app_section.roborock_app_section-third
     .roborock_app_item-wrapper

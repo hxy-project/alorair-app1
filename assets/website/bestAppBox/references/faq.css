@@ -72,11 +72,11 @@ table {
 li {
   outline: none;
 }
-a {
+/* a {
   color: inherit;
   text-decoration: none;
   display: inline-block;
-}
+} */
 .sr-only {
   position: absolute;
   left: -10000px;
