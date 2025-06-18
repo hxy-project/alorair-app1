@@ -496,6 +496,16 @@ body {
   -webkit-filter: drop-shadow(14px 16px 34px rgba(0, 0, 0, 0.12));
   filter: drop-shadow(14px 16px 34px rgba(0, 0, 0, 0.12));
   will-change: filter;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+
+  /* 尝试锐化效果（可兼容 Chrome） */
+  image-rendering: -webkit-optimize-contrast;
+
+  /* 避免过度抗锯齿处理 */
+  transform: none;
+  will-change: auto;
 }
 .roborock_app_section.roborock_app_section-first
   .roborock_app_imgs_wraper
@@ -569,6 +579,8 @@ body {
   align-items: center;
   padding: 0 -moz-calc(var(--body-font-size) * 0.46px);
   padding: 0 calc(var(--body-font-size) * 0.46px);
+  flex-grow: 1;
+
 }
 .roborock_app_section.roborock_app_section-second
   .roborock_app_item-wrapper
@@ -1140,8 +1152,8 @@ body {
   position: relative;
   margin-bottom: -moz-calc(var(--body-font-size) * 0.5px);
   margin-bottom: calc(var(--body-font-size) * 0.5px);
-  max-width: -moz-calc(var(--body-font-size) * 3px);
-  max-width: calc(var(--body-font-size) * 3px);
+  /* max-width: -moz-calc(var(--body-font-size) * 3px);
+  max-width: calc(var(--body-font-size) * 3px); */
   width: 100%;
   height: 100%;
 }
