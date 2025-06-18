@@ -5562,6 +5562,7 @@
                 padding: calc(var(--body-font-size) * 0.14px) calc(var(--body-font-size) * 0.34px);
                 color: #fff;
                 border: none;
+                border-radius: 3px;
             }
 
             .font-w-600 {
@@ -5596,6 +5597,21 @@
             .vertical-align-b {
                 vertical-align: bottom;
             }
+            .text-wrapper {
+  display: inline-flex;         
+  align-items: flex-end;        
+  gap: 8px;                     
+}
+
+.big-text {
+  font-size: 32px;
+  line-height: 1;
+}
+
+.small-text {
+  font-size: 16px;
+  line-height: 1;
+}
 
             /* tab */
             .tabs {
@@ -5759,7 +5775,7 @@
 
             .buyNow-btn {
                 width: 100%;
-                background-color: #21467A;
+             
                 color: #fff;
                 padding-top: calc(var(--body-font-size) * .15px);
                 padding-bottom: calc(var(--body-font-size) * .15px);
@@ -5767,7 +5783,89 @@
                 font-weight: 600;
                 font-size: calc(var(--body-font-size) * .2px);
                 font-family: OPPO-Sans !important;
+
+                background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
             }
+            .btn-7 {
+background:#21467A;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-7 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-7:before,
+.btn-7:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: #21467A;
+  box-shadow:
+   -7px -7px 20px 0px rgba(255,255,255,.9),
+   -4px -4px 5px 0px rgba(255,255,255,.9),
+   7px 7px 20px 0px rgba(0,0,0,.2),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+  transition: all 0.3s ease;
+}
+.btn-7:before{
+   height: 0%;
+   width: 2px;
+}
+.btn-7:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-7:hover{
+  color: #21467A;
+  background: transparent;
+}
+.btn-7:hover:before {
+  height: 100%;
+}
+.btn-7:hover:after {
+  width: 100%;
+}
+.btn-7 span:before,
+.btn-7 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background:#21467A;
+  box-shadow:
+   -7px -7px 20px 0px rgba(255,255,255,.9),
+   -4px -4px 5px 0px rgba(255,255,255,.9),
+   7px 7px 20px 0px rgba(0,0,0,.2),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+  transition: all 0.3s ease;
+}
+.btn-7 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-7 span:after {
+  height: 2px;
+  width: 0%;
+}
+.btn-7 span:hover:before {
+  height: 100%;
+}
+.btn-7 span:hover:after {
+  width: 100%;
+}
 
             .svg-w-h {
                 width: calc(var(--body-font-size) * .28px);
@@ -6697,7 +6795,7 @@
                                         <div class="roborock_app_sticky-holder"
                                             style="translate: none; rotate: none; scale: none; inset: 0px auto auto 0px; margin: 0px; max-width: 100%; width: 100%; max-height: 100%; height: 100%; padding: 0px; transform: translate(0px, 0px);">
                                             <img alt="This is a image" class="roborock_app_placeholder"
-                                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            src="./assets/website/bestAppBox/images/Alert Access.png"
                                                 width="1639" height="740">
                                             <div class="roborock_app_bgs">
                                                 <div class="roborock_app_bg"
@@ -6832,15 +6930,22 @@
                                                                     HD90
                                                                     HDi90 HD55 HDi100 HDi120</p>
                                                                 <div class="flex-box justify-c-b flex-wrap">
-                                                                    <div class="flex-box flex-wrap align-items-e">
+                                                                    <div class="text-wrapper">
+                                                                        <span class="big-text OPPO-Sans color-main font-w-600 font-size-26 mr-11">$100.00
+                                                                            USD</span>
+                                                                        <span class="small-text OPPO-Sans font-size-20 line-through color-gray">$120.00
+                                                                            USD</span>
+                                                                      </div>
+                                                                      
+                                                                    <!-- <div class="flex-box flex-wrap align-items-e">
                                                                         <p class="flex-box align-items-e mr-11"><span
                                                                                 class="OPPO-Sans color-main font-w-600 font-size-26 vertical-align-b">$100.00
                                                                                 USD</span></p>
                                                                         <p class="flex-box align-items-e"><span
                                                                                 class="OPPO-Sans font-size-20 line-through color-gray vertical-align-b">$120.00
                                                                                 USD</span></p>
-                                                                    </div>
-                                                                    <button class="accessories-btn">Buy Now</button>
+                                                                    </div> -->
+                                                                    <button class="accessories-btn ">Buy Now</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -7022,7 +7127,7 @@
                                                 class="mr-8 OPPO-Sans font-size-26 font-w-600 color-main">$399.73</span>
                                             <span class="line-through font-size-20 color-gray">$499.66</span>
                                         </div>
-                                        <button class="buyNow-btn">Buy Now</button>
+                                        <button class="buyNow-btn custom-btn btn-7"> <span>Buy Now</span></button>
                                     </div>
                                     <div class="product-box ">
                                         <div class="product-badge">
@@ -7088,7 +7193,7 @@
                                                 class="mr-8 OPPO-Sans font-size-26 font-w-600 color-main">$399.73</span>
                                             <span class="line-through font-size-20 color-gray">$499.66</span>
                                         </div>
-                                        <button class="buyNow-btn">Buy Now</button>
+                                        <button class="buyNow-btn custom-btn btn-7"> <span>Buy Now</span></button>
                                     </div>
                                     <div class="product-box ">
                                         <div class="product-badge">
@@ -7154,7 +7259,7 @@
                                                 class="mr-8 OPPO-Sans font-size-26 font-w-600 color-main">$399.73</span>
                                             <span class="line-through font-size-20 color-gray">$499.66</span>
                                         </div>
-                                        <button class="buyNow-btn">Buy Now</button>
+                                        <button class="buyNow-btn custom-btn btn-7"> <span>Buy Now</span></button>
                                     </div>
                                     <div class="product-box ">
                                         <div class="product-badge">
@@ -7220,7 +7325,7 @@
                                                 class="mr-8 OPPO-Sans font-size-26 font-w-600 color-main">$399.73</span>
                                             <span class="line-through font-size-20 color-gray">$499.66</span>
                                         </div>
-                                        <button class="buyNow-btn">Buy Now</button>
+                                        <button class="buyNow-btn custom-btn btn-7"> <span>Buy Now</span></button>
                                     </div>
                                 </div>
                             </section>
