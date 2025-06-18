@@ -854,8 +854,8 @@ body {
   -o-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #fff;
-  border: 1px solid #f5f5f5;
+  background: #f6fbff;
+  border: calc(var(--body-font-size) * 0.05px) solid #fff;
   border-radius: 4px;
   margin: 1px;
   padding: -moz-calc(var(--body-font-size) * 0.32px);
@@ -877,6 +877,7 @@ body {
   -webkit-justify-content: space-between;
   -moz-box-pack: justify;
   justify-content: space-between;
+ 
 }
 .roborock_app_section.roborock_app_section-third
   .roborock_app_item-wrapper
