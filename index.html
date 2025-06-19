@@ -5559,12 +5559,22 @@
                 font-weight: 600;
                 font-size: calc(var(--body-font-size) * 0.2px);
                 background-color: #21467A;
-                padding: calc(var(--body-font-size) * 0.14px) calc(var(--body-font-size) * 0.34px);
                 color: #fff;
                 border: none;
                 border-radius: 3px;
+                background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
             }
-
+        .accessories-btn span{
+            padding: calc(var(--body-font-size) * 0.066px) calc(var(--body-font-size) * 0.34px);
+        }
             .font-w-600 {
                 font-weight: 600;
             }
@@ -6030,6 +6040,9 @@ background:#21467A;
         .font-size-28{
             font-size: calc(var(--body-font-size) * .28px) !important;
         }
+        .font-size-35{
+            font-size: calc(var(--body-font-size) * .35px) !important;
+        }
             /**
        pc端样式
        */
@@ -6122,8 +6135,16 @@ background:#21467A;
                 .grid-4-box {
                     grid-template-columns: 1fr 1fr;
                 }
+              
             }
-
+            @media screen and (max-width: 1750px){
+                .roborock_app_section.roborock_app_section-fourth
+  .roborock_app_left-part
+  .roborock_app_imgs{
+    max-width: -moz-calc(var(--body-font-size) * 3px);
+  max-width: calc(var(--body-font-size) * 3px);
+  }
+            }
             @media screen and (max-width: 767px) {
 
                 .m-padding {
@@ -6483,7 +6504,7 @@ background:#21467A;
 
                             </section>
                             <div class="download-box">
-                                <img src="./assets/website/bestAppBox/images/download-basemap.png">
+                                <img src="./assets/website/bestAppBox/images/download-basemap.png" class="display-block">
                                 <div class="download-content">
                                     <div class="grid-box">
                                         <div class="mb-30">
@@ -6948,7 +6969,7 @@ background:#21467A;
                                                                                 class="OPPO-Sans font-size-20 line-through color-gray vertical-align-b">$120.00
                                                                                 USD</span></p>
                                                                     </div> -->
-                                                                    <button class="accessories-btn ">Buy Now</button>
+                                                                    <button class="accessories-btn btn-7"><span>Buy Now</span></button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -7040,18 +7061,18 @@ background:#21467A;
 
                                     <div class="flex-box flex-c-direction justify-content-c">
                                         <div>
-                                            <a href="#" target="_blank" download class="flex-box align-items-c mb-90">
+                                            <a href="./assets/website/bestAppBox/pdf/AlorAir-C Sentinel HD35P Outline.pdf" target="_blank" download class="flex-box align-items-c mb-90">
                                                 <img src="./assets/website/bestAppBox/images/pdf-load.png"
                                                     class="mr-41 pdf-img">
-                                                <p class="OPPO-Sans font-size-26 line-height color-b">AlorAir-C APP WI-FI connection guide, suitable for intelligent digital display control panel, compatible with IOS and Android</p>
+                                                <p class="OPPO-Sans font-size-35 line-height color-b">AlorAir-C APP WIFI Sentinel HD35P Outline</p>
                                             </a>
 
                                         </div>
                                         <div>
-                                            <a href="#" target="_blank" download class="flex-box align-items-c">
+                                            <a href="./assets/website/bestAppBox/pdf/AlorAir-C Sentinel HD55S Outline.pdf" target="_blank" download class="flex-box align-items-c">
                                                 <img src="./assets/website/bestAppBox/images/pdf-load.png"
                                                     class="mr-41 pdf-img">
-                                                <p class="OPPO-Sans font-size-26 line-height color-b">AlorAir-C APP WI-FI connection guide, suitable for simple digital display control panel, compatible with IOS and Android</p>
+                                                <p class="OPPO-Sans font-size-35 line-height color-b">AlorAir-C APP WIFI Sentinel HD55S Outline</p>
                                             </a>
                                         </div>
                                         <div>
